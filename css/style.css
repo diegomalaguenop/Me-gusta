@@ -1,0 +1,131 @@
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.flex-container, .nav-links, .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    height: 80px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.flex-container.main {
+    align-items: flex-start;
+}
+
+.col-2 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.col-1 {
+    flex: 1;
+    margin-right: 30px;
+
+}
+
+
+.card {
+    background-color: #fff;
+    border: 5px solid black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+    border: 5px solid black;
+    height: 300px;
+    width: 170px;
+}
+
+.row {
+    margin: 80px 65px;
+}
+
+
+
+
+.user {
+    display: flex;
+    width: 80px;
+    align-items: center;
+    margin: 30px 0 30px 15px;
+}
+
+.card-body1 {
+    text-align: center;
+}
+
+
+.card-body {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+    justify-content: space-evenly;
+
+}
+
+.card-description {
+    font-size:larger;
+    margin-left: 45px;
+
+}
+
+a {
+    color: #3a81e6;
+}
+
+.cardName {
+    text-align: center;
+    margin-block-start: 0.67em;
+    margin-block-end: 0;
+    font-weight: bold;
+
+}
+
+.title {
+    font-size: 1.17em;
+    margin-block-end: 0;
+    font-weight: bold;
+}
+
+.subtitle {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    text-align: center;
+
+}
+
+.card-button {
+    width: 110px;
+    height: 42px;
+    color: black;
+    background-color: #ffc107;
+    border: none;
+    font-size: 1rem;
+    margin-top: 25px;
+    padding: 5px;
+    font-weight: bold;
+    border: 3px solid black;
+    box-shadow: 5px 5px black;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Profile Page</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+        <!-- navbar -->
+        <div class="nav">
+            <div class="flex-container">
+                <h1 class="nav-title">Network</h1>
+            </div>
+        </div>
+
+        <!-- main -->
+        <div class="flex-container main">
+
+            <!-- 1/3 width column -->
+            <div class="col-1">
+
+                <!-- profiel card -->
+                <div class="row">
+                    <div class="column">
+                    <div class="card-body1">
+                        <img class="user" src="/img/user-circle.png" alt="ProfileImg">
+                        <a href="#">Add an avatar</a>
+                        <h2 class="name-user"> James Doe</h2> 
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- 2/3 width column -->
+            <div class="col-2">
+                <!--  card 1-->
+                <h1>Your Feed</h1>
+                <div class="card">
+                    <div class="card-body">
+                        <h2 class="cardName">Neil M </h2>
+                        <h3 class="title"><span class="like-count">9</span> Like(s)</h3>
+                        <button onclick="likeButton(this, 'like-count')" class="card-button">Like</button>
+                    </div>
+                    <div class="card-description">
+                        <p>I just set up this new discord bot, let me <br> know what you all thin. 
+                            <a href="#">link</a> </p>
+                    </div>
+                </div>
+
+                <!--  card 2 -->
+                <div class="card">
+                    <div class="card-body">
+                            <h2 class="cardName">Nichole K </h2>
+                            <h3 class="title"><span class="like-count">12</span> Like(s)</h3>
+                            <button onclick="likeButton(this, 'like-count')" class="card-button">Like</button>
+                        </div>
+                    <div class="card-description">
+                        <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                            </div>
+                        </div>
+
+                <!--  card 3 -->
+                <div class="card">
+                    <div class="card-body">
+                            <h2 class="cardName">Jim R</h2>
+                            <h3 class="title"><span class="like-count">8</span> Like(s)</h3>
+                            <button onclick="likeButton(this, 'like-count')" class="card-button">Like</button>
+                            </div>
+                            <div class="card-description">
+                            <p>I can't stop listenint to the <a href="#">new album</a>. <br>
+                                Who else is liking it? 
+                            </p>
+                            </div>
+                        </div>
+                </div>
+
+                
+                
+
+            </div>
+        </div>
+        <script src="/js/script.js"></script>
+    
+    </body>
+</html>
